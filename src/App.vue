@@ -1,8 +1,7 @@
 <template>
-  <Nav/>
-
+  <Nav />
   <main class="form-signin">
-    <router-view/>
+    <router-view />
   </main>
 </template>
 
@@ -10,14 +9,14 @@
 import Nav from "@/components/Nav";
 
 export default {
-  components: {Nav}
-}
+  components: { Nav },
+};
 </script>
 
 <style>
 .form-signin {
-  width: 100%;
-  max-width: 330px;
+  width: 200%;
+  max-width: 500px;
   padding: 15px;
   margin: auto;
 }
